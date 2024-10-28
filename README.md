@@ -16,7 +16,7 @@ Download the AppImage from https://slippi.gg/ (Linux should already be selected 
 
 in terminal navigate to the AppImage location (usually Downloads) and `run chmod +x <AppImage name>` (for example `chmod +x Slippi-Launcher-2.1.7-x86_64.AppImage`)
 
-Run with `./Slippi-Launcher-2.1.7-x86_64.AppImage --device=all` (I got errors without that - it seems to weaken security and is related to an out of date bundled chrome/electron dependency, use at your own risk). Try it once without -`--device=all` just to see if it runs. The errors I got were Invalid asm.js: Invalid member of stdlib and The display compositor is frequently crashing. Goodbye.
+Run with `./Slippi-Launcher-2.1.7-x86_64.AppImage --device=all` (I got errors without that - it seems to weaken security and is related to an out of date bundled chrome/electron dependency, use at your own risk). Try it once without `--device=all` just to see if it runs. The errors I got were Invalid asm.js: Invalid member of stdlib and The display compositor is frequently crashing. Goodbye.
 
 Login to your account etc using the prompts. When you click the green "Play" button, watch the terminal output. You should see a line that says something like Launching dolphin at path: /home/petertree/.config/Slippi Launcher/netplay/Slippi_Online-x86_64.AppImage - Note that path down
 
